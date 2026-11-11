@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Duygunun Halleri</string>
+    <!-- SİTE ADRESİNİ BURAYA YAZ (https ile başlamalı, sonda / olsun) -->
+    <string name="app_url">https://ALANADIN.COM/</string>
+</resources>

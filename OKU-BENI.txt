@@ -1,0 +1,14 @@
+DUYGUNUN HALLERİ - ANDROID (DEBUG APK) PROJESİ
+Bu uygulama, cPanel'e yüklediğin siteyi (PHP sunucusu şart) açan bir Android kabuğudur. Site HTTPS olmalıdır.
+
+YOL 1 - GitHub ile (bilgisayara bir şey kurmadan, ücretsiz):
+ 1) github.com'da yeni (private) bir depo aç, bu klasörün TÜM içeriğini yükle (.github klasörü dahil).
+ 2) Depoda Actions > "Debug APK olustur" > Run workflow > site adresini yaz (https://siteadi.com/) > Run.
+ 3) ~5 dk sonra iş bitince sayfanın altındaki Artifacts > duygunun-halleri-debug-apk'yi indir, zip'ten app-debug.apk çıkar.
+
+YOL 2 - Android Studio:
+ 1) app/src/main/res/values/strings.xml içinde app_url değerini kendi adresinle değiştir.
+ 2) Klasörü Android Studio ile aç > Build > Build Bundle(s)/APK(s) > Build APK(s).
+ 3) APK: app/build/outputs/apk/debug/app-debug.apk
+
+Telefona kurulum: APK'yı telefona gönder, aç, "bu kaynaktan yüklemeye izin ver" de ve Yükle.
