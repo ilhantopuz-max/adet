@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       app_url:
-        description: 'Site adresin (ornek: https://siteadi.com/)'
+        description: 'https://duygu.e-nuans.com/'
         required: true
 jobs:
   build:
